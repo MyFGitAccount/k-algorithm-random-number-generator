@@ -9,6 +9,10 @@ using namespace std;
 //since cpp pow will return a float or double type output which is something that I don't want
 //so I make my own function that return a unsigned int
 
+//X is the seed
+//Y determine how many time it loop
+//Z is the step
+
 unsigned long long int_pow(unsigned long long base, int exp) {
     unsigned long long result = 1;
     while (exp) {

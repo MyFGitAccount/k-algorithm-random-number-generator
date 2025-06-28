@@ -41,3 +41,4 @@ is, by the middle 10 digits of X(X - 1).
 K13. [Repeat] If Y > 0, decrease Y by 1 and return to step K2. If Y = 0, the
 
 algorithm terminates with X as the desired "random" value.
+

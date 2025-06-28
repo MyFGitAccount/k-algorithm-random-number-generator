@@ -5,6 +5,9 @@
 #include <string>
 
 using namespace std;
+//this program use array to store function and a pointer to point to the function that stored in the array
+//since cpp pow will return a float or double type output which is something that I don't want
+//so I make my own function that return a unsigned int
 
 unsigned long long int_pow(unsigned long long base, int exp) {
     unsigned long long result = 1;
@@ -15,9 +18,9 @@ unsigned long long int_pow(unsigned long long base, int exp) {
     }
     return result;
 }
-
+//return void accept a reference to size_t
 using StepFunction = function<void(size_t&)>;
-
+//this random number generator only work for big number
 unsigned int Random_num(size_t X) {
     if (X < int_pow(10, 9)) {
         cerr << "Input too small. Must be at least 10 digits.\n";

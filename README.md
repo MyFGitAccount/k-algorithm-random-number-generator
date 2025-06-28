@@ -1,7 +1,7 @@
 # k-algorithm-random-number-generator
 k algorithm random number generator
 
-this is a random number generator it design is based on the k algorithm in the art of computer science v2
+this is a random number generator it design is based on the k algorithm in the "art of computer science v2"
 
 it has  the following step:
 
